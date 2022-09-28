@@ -1,4 +1,10 @@
 <h2>Products</h2>
+<table>
+  <tr *ngFor="let product of products">
+      <td>{{ product.name }}</td>
+      <td> <a [title]="'go to '+ product.name + ' details'">:></a></td>
+  </tr>
+</table>
 
 
 <!-- 
