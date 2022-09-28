@@ -1,9 +1,9 @@
 <h2>Products</h2>
 <table>
-  <tr *ngFor="let product of products">
+  <tr *ngFor="let x of products">
       <td>{{ product.name }}</td>
-      <td> <a [title]="'go to '+ product.name + ' details'"
-              [routerLink]="['/products', product.id]">:></a></td>
+      <td> <a [title]="'go to '+ x.name + ' details'"
+              [routerLink]="['/products', x.id]">:></a></td>
   </tr>
 </table>
 
