@@ -1,12 +1,16 @@
 <h2>Products</h2>
 <table>
-  <tr *ngFor="let x of products">
-      <td>{{ product.name }}</td>
-      <td> <a [title]="'go to '+ x.name + ' details'"
-              [routerLink]="['/products', x.id]">:></a></td>
+  <tr *ngFor="let x of productxxx">
+    <td>{{ product.name }}</td>
+    <td>
+      <a
+        [title]="'go to ' + x.name + ' details'"
+        [routerLink]="['/products', x.id]"
+        >:></a
+      >
+    </td>
   </tr>
 </table>
-
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
