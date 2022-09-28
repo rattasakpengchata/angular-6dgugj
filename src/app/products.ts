@@ -20,6 +20,12 @@ export const products = [
   },
   {
     id: 3,
+    name: 'Sumsung A3',
+    price: 109,
+    description: 'included macro lene and long-live batterry'
+  },
+  {
+    id: 4,
     name: 'Phone Standard',
     price: 299,
     description: ''
